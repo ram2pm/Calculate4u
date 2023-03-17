@@ -228,41 +228,6 @@ export default function App() {
           <SmallBtn value="=" type="equals" key={Math.random()} />
         </div>
 
-        {/* {operations.map((item) => {
-          if (item.value === "AC")
-          return (
-              <SmallBtn
-                width="wide"
-                value={item.value}
-                type={item.id}
-                key={Math.random()}
-              />
-            );
-        })}
-        {numbers.map((item) => {
-          return (
-            <SmallBtn
-              width="small"
-              value={item.value}
-              type={item.id}
-              key={Math.random()}
-            />
-          );
-        })}
-
-        {operations.map((item) => {
-          if (item.value !== "AC")
-            return (
-              <SmallBtn
-                width="small"
-                value={item.value}
-                type={item.id}
-                key={Math.random()}
-              />
-            );
-        })}
-
-        <SmallBtn width="small" value="." type="decimal" /> */}
       </div>
     </div>
   );
